@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coder Registration</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="form-container">
+    <h2>Registration</h2>
+    <form action="#" method="post">
+      <label for="name">Name</label><br>
+      <input type="text" id="name" name="name" required /><br><br>
+
+      <label for="roll">Roll Number</label><br>
+      <input type="text" id="roll" name="roll" required /><br><br>
+
+      <label for="email">Email</label><br>
+      <input type="email" id="email" name="email" required /><br><br>
+
+      <label>Gender</label><br>
+      <input type="radio" name="gender" value="male" required /> Male<br>
+      <input type="radio" name="gender" value="female" /> Female<br>
+      <input type="radio" name="gender" value="other" /> Other<br><br>
+
+      <label for="language">Preferred Coding Language</label><br>
+      <select id="language" name="language" required>
+        <option value="">--Select--</option>
+        <option value="java">Java</option>
+        <option value="python">Python</option>
+        <option value="cpp">C++</option>
+        <option value="javascript">JavaScript</option>
+        <option value="sql">SQL</option>
+      </select><br><br>
+
+      <button type="submit">Register</button><br><br>
+
+      <!-- Reset Section -->
+      <hr>
+      <h4>Want to start over?</h4>
+      <button type="reset">Reset Form</button>
+    </form>
+  </div>
+</body>
+</html>
